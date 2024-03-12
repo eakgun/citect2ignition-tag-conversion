@@ -1,0 +1,130 @@
+{
+  "custom": {},
+  "params": {
+    "tagPath": "value",
+    "tagf0Path": "value",
+    "tagf1Path": "value"
+  },
+  "propConfig": {
+    "params.tagPath": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.tagf0Path": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.tagf1Path": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 110,
+      "width": 368
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 304,
+          "x": 33,
+          "y": 15.75
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "replace({view.params.tagPath}, \"[default]\", \"\")+ \u0027: \u0027 + tag({view.params.tagPath})\n"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "script": "\t\n# Get the control value of the button\n\tcontrolValue \u003d self.props.controlValue\n\n\t# Get the paths of the f0 and f1 tags\n\tf0_tag_path \u003d self.view.params.get(\u0027tagf0Path\u0027)\n\tf1_tag_path \u003d self.view.params.get(\u0027tagf1Path\u0027)\n\t\n\t# Check if the tag paths exist\n\tif f0_tag_path is None or f1_tag_path is None:\n\t    print(\"Error: tagf0Path or tagf1Path is not defined\")\n\telse:\n\t    # Set the value of the f0 and f1 tags based on the control value of the button\n\t    if controlValue \u003d\u003d self.props.states[0].value:  # Assuming \u0027f0\u0027 is the value of the first state\n\t        system.tag.writeBlocking([f0_tag_path], [True])\n\t        system.tag.writeBlocking([f1_tag_path], [False])\n\t    elif controlValue \u003d\u003d self.props.states[2].value:  # Assuming \u0027f1\u0027 is the value of the second state\n\t        system.tag.writeBlocking([f0_tag_path], [False])\n\t        system.tag.writeBlocking([f1_tag_path], [True])\n\t    else:  # controlValue \u003d\u003d \u0027off\u0027\n\t        system.tag.writeBlocking([f0_tag_path], [False])\n\t        system.tag.writeBlocking([f1_tag_path], [False])"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "MultiStateButton_0"
+        },
+        "position": {
+          "height": 39,
+          "width": 269,
+          "x": 52.5,
+          "y": 55.25
+        },
+        "propConfig": {
+          "props.indicatorValue": {
+            "binding": {
+              "config": {
+                "path": "this.props.controlValue"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "controlValue": 1,
+          "orientation": "row",
+          "states": [
+            {
+              "selectedStyle": {
+                "backgroundColor": "#FFF275",
+                "classes": ""
+              },
+              "text": "f0",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 0
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#F84553",
+                "classes": ""
+              },
+              "text": "Off",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 2
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#FFF275",
+                "classes": ""
+              },
+              "text": "f1",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 1
+            }
+          ]
+        },
+        "type": "ia.input.multi-state-button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

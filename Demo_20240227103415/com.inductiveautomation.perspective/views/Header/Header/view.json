@@ -1,0 +1,498 @@
+{
+  "custom": {},
+  "params": {
+    "params": {},
+    "size": "medium"
+  },
+  "propConfig": {
+    "params.params": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.size": {
+      "paramDirection": "input"
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 79,
+      "width": 873
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Swarco_Holding_logo",
+          "tooltip": {
+            "enabled": true,
+            "text": "Swarco Logo"
+          }
+        },
+        "position": {
+          "shrink": 5
+        },
+        "props": {
+          "elements": [
+            {
+              "id": "defs12462",
+              "name": "defs12462",
+              "type": "defs"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M 458.97055,507.83093 L 450.40805,519.26843 L 458.97055,530.89343 L 481.6893,530.89343 L 473.15805,519.26843 L 481.6893,507.83093 L 458.97055,507.83093 z M 424.28305,520.89343 L 432.8143,532.33093 L 424.28305,543.95593 L 447.0018,543.95593 L 455.5643,532.33093 L 447.0018,520.89343 L 424.28305,520.89343 z M 458.97055,533.83093 L 450.40805,545.26843 L 458.97055,556.89343 L 481.6893,556.89343 L 473.15805,545.26843 L 481.6893,533.83093 L 458.97055,533.83093 z",
+                  "fill": {
+                    "opacity": "1",
+                    "paint": "#000000",
+                    "rule": "nonzero"
+                  },
+                  "id": "path2498",
+                  "name": "path2498",
+                  "stroke": {
+                    "paint": "transparent"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M 280.5018,520.08093 C 278.1243,520.08093 275.36929,520.76594 273.8143,521.70593 C 271.2493,523.25343 270.41055,524.62593 270.09555,526.45593 C 269.8368,527.97468 269.99804,530.51095 271.2518,531.58093 C 273.3743,533.39343 275.46681,533.8422 278.0018,534.42468 C 280.53555,535.00718 282.2143,535.51465 282.5643,536.76843 C 282.91305,538.02093 282.0068,538.79092 281.22055,539.11218 C 280.43305,539.43218 278.39054,539.52595 277.28305,538.76843 C 276.1768,538.01093 275.97056,536.04967 275.97055,536.04968 L 275.72055,536.04968 L 268.3768,536.04968 C 268.3768,536.04968 267.99556,537.77844 269.0643,540.36218 C 270.12555,542.92593 273.93554,544.51844 279.47055,544.51843 C 285.00555,544.51843 288.49679,542.53967 289.90805,541.04968 C 290.7043,540.20968 292.78556,538.02344 292.3143,534.83093 C 291.9168,532.13343 290.06931,531.29966 289.28305,530.86218 C 288.4968,530.42593 286.34681,529.77844 283.78305,529.48718 C 281.2193,529.19593 278.9393,528.77594 278.9393,526.76843 C 278.9393,525.31218 280.94181,524.9872 281.65805,524.98718 L 293.8143,524.98718 L 295.47055,543.79968 L 304.78305,543.79968 L 310.9393,532.33093 L 312.5018,543.79968 L 321.28305,543.79968 L 330.34555,524.98718 L 343.72055,524.98718 C 344.6643,524.98718 345.97056,525.62593 345.97055,526.79968 C 345.97055,527.70218 345.69305,528.52594 344.8768,529.04968 C 344.0618,529.57468 341.65177,529.42465 340.72055,529.42468 C 339.78805,529.42468 335.93179,529.70345 334.09555,530.08093 C 332.26055,530.45968 329.3443,532.01095 327.8143,534.23718 C 326.8418,535.65218 326.94306,538.10468 327.3768,539.01843 C 328.2168,540.78718 330.45556,543.9559 336.2518,543.95593 C 339.6193,543.95593 343.3143,541.26845 343.3143,541.26843 C 343.3143,541.26843 343.41181,541.99717 343.47055,542.58093 C 343.52805,543.16343 343.65806,543.67466 343.65805,543.67468 L 352.5643,543.67468 L 351.9393,541.89343 C 351.8518,541.25343 351.66933,540.77092 351.8143,539.51843 C 351.96055,538.26593 354.16432,526.53596 354.2518,525.04968 C 354.3393,523.56343 353.33806,522.30718 352.3768,521.54968 C 351.41555,520.79218 349.25558,520.08094 345.97055,520.08093 L 324.5643,520.08093 L 317.84555,533.48718 L 317.03305,520.08093 L 309.72055,520.08093 L 302.2518,534.61218 L 301.40805,520.08093 L 280.5018,520.08093 z M 359.0018,520.08093 L 354.2518,543.79968 L 362.09555,543.79968 C 362.09555,543.79968 362.35681,540.9747 362.8768,538.42468 C 363.39555,535.87593 364.54554,532.13342 367.28305,529.01843 C 370.0218,525.90218 373.00056,526.84341 373.1893,527.26843 C 373.37805,527.69343 372.90181,528.46841 372.40805,530.79968 C 371.59305,534.65468 372.34682,538.02844 374.1893,540.04968 C 376.03055,542.06968 379.46803,543.79969 385.47055,543.79968 C 392.9868,543.79968 397.56433,536.58093 397.5643,536.58093 C 397.6593,536.53968 399.0243,541.42844 404.6893,543.17468 C 408.5468,544.36468 413.30553,543.67841 416.3768,542.29968 C 420.4518,540.47093 422.62429,536.75094 423.1893,532.54968 C 424.18055,525.18468 421.18178,520.08094 411.22055,520.08093 C 401.25805,520.08093 398.31432,527.33094 398.3143,527.33093 C 398.3143,527.33093 397.91306,525.7997 395.78305,523.17468 C 393.1393,519.91843 387.35307,520.08094 386.22055,520.08093 L 373.59555,520.08093 C 371.2193,520.08093 366.93931,522.45593 366.9393,522.45593 L 366.7518,520.08093 L 359.0018,520.08093 z M 411.6893,524.92468 C 412.13221,524.90841 412.49836,524.96405 412.7518,525.01843 C 414.45055,525.37843 415.7893,527.33467 415.03305,531.45593 C 414.6043,533.80093 414.16681,534.44966 413.90805,535.04968 C 412.8218,537.56968 410.74052,538.09717 410.1268,538.14343 C 408.10305,538.29468 404.73683,536.14468 406.8143,530.23718 C 408.37243,525.80562 410.36057,524.97349 411.6893,524.92468 z M 386.3143,524.98718 C 387.40055,524.98718 388.6643,525.7034 389.15805,527.11218 C 389.54805,528.22093 389.50181,529.51843 389.5018,529.51843 L 397.47055,529.51843 C 397.47055,529.51843 397.00182,531.86718 397.0018,533.11218 C 397.0018,534.35843 397.34557,535.64342 397.34555,535.64343 L 387.97055,535.64343 C 387.97055,535.64343 387.07928,537.8284 384.97055,538.20593 C 383.9318,538.39343 381.99053,538.3772 381.1893,536.29968 C 380.38555,534.22343 380.43431,531.57717 381.09555,529.73718 C 381.7568,527.89468 383.57679,524.9872 386.3143,524.98718 z M 342.1893,533.08093 C 343.16577,533.06159 344.34557,533.14343 344.34555,533.14343 C 344.34555,533.14343 344.16556,537.23468 342.5018,538.36218 C 341.13055,539.29093 339.26555,539.74216 337.9393,538.76843 C 336.61305,537.79718 336.56802,536.49592 337.40805,535.08093 C 338.24805,533.66593 339.84177,533.36343 341.34555,533.14343 C 341.57774,533.10906 341.86381,533.08738 342.1893,533.08093 z",
+                  "fill": {
+                    "opacity": "1",
+                    "paint": "#006bab",
+                    "rule": "nonzero"
+                  },
+                  "id": "path2502",
+                  "name": "path2502",
+                  "stroke": {
+                    "paint": "transparent"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M 460.90805,511.54968 L 455.53305,519.26843 L 460.90805,526.98718 L 474.3768,526.98718 L 468.90805,519.26843 L 474.3768,511.54968 L 460.90805,511.54968 z M 431.59555,524.61218 L 437.0643,532.33093 L 431.59555,540.04968 L 445.0643,540.04968 L 450.4393,532.33093 L 445.0643,524.61218 L 431.59555,524.61218 z M 460.90805,537.54968 L 455.53305,545.26843 L 460.90805,552.98718 L 474.3768,552.98718 L 468.90805,545.26843 L 474.3768,537.54968 L 460.90805,537.54968 z",
+                  "fill": {
+                    "opacity": "1",
+                    "paint": "#f29200",
+                    "rule": "nonzero"
+                  },
+                  "id": "path2500",
+                  "name": "path2500",
+                  "stroke": {
+                    "paint": "transparent"
+                  },
+                  "type": "path"
+                }
+              ],
+              "id": "layer1",
+              "name": "layer1",
+              "transform": "translate(-268.3107,-507.83093)",
+              "type": "group"
+            }
+          ],
+          "viewBox": "-1.471875 -1.471875 216.32235 52.00625"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "id": "menu",
+                "type": "toggle"
+              },
+              "scope": "C",
+              "type": "dock"
+            }
+          }
+        },
+        "meta": {
+          "name": "Menu Dock"
+        },
+        "position": {
+          "basis": "24px",
+          "shrink": 0
+        },
+        "propConfig": {
+          "position.display": {
+            "binding": {
+              "config": {
+                "expression": "{view.params.size} \u003d \"small\""
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "path": "material/menu",
+          "style": {
+            "classes": "Header/Icon",
+            "marginRight": "10px"
+          }
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "meta": {
+          "name": "Menu"
+        },
+        "propConfig": {
+          "position.display": {
+            "binding": {
+              "config": {
+                "expression": "{view.params.size} !\u003d \"small\""
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "path": "Docks/Menu Horizontal",
+          "style": {
+            "marginBottom": "10px",
+            "marginLeft": "16px",
+            "marginRight": "16px",
+            "marginTop": "10px"
+          }
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "hasDelegate": true,
+          "name": "Filler"
+        },
+        "position": {
+          "basis": "5px",
+          "grow": 1,
+          "shrink": 0
+        },
+        "props": {
+          "text": " "
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Dropdown"
+        },
+        "position": {
+          "basis": "124px",
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "session.props.theme"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "options": [
+            {
+              "label": "light",
+              "value": "light"
+            },
+            {
+              "label": "light-cool",
+              "value": "light-cool"
+            },
+            {
+              "label": "light-warm",
+              "value": "light-warm"
+            },
+            {
+              "label": "dark",
+              "value": "dark"
+            },
+            {
+              "label": "dark-cool",
+              "value": "dark-cool"
+            },
+            {
+              "label": "dark-warm",
+              "value": "dark-warm"
+            }
+          ],
+          "search": {
+            "enabled": false
+          },
+          "style": {
+            "classes": "Header/DropDown"
+          }
+        },
+        "type": "ia.input.dropdown"
+      },
+      {
+        "meta": {
+          "hasDelegate": true,
+          "name": "Spacer 1"
+        },
+        "position": {
+          "basis": "10px",
+          "shrink": 0
+        },
+        "props": {
+          "text": " "
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\tif self.session.props.auth.authenticated:\n\t\tsystem.perspective.logout()\n\telse:\n\t\tsystem.perspective.login()"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "User"
+        },
+        "position": {
+          "basis": "30px",
+          "shrink": 0
+        },
+        "props": {
+          "path": "material/person",
+          "style": {
+            "classes": "Header/Icon"
+          }
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\tif self.session.props.auth.authenticated:\n\t\tsystem.perspective.logout()\n\telse:\n\t\tsystem.perspective.login()"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "hasDelegate": true,
+          "name": "Sign In"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "position.display": {
+            "binding": {
+              "config": {
+                "expression": "{view.params.size} \u003d \"large\""
+              },
+              "type": "expr"
+            }
+          },
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "session.props.auth.user.userName"
+              },
+              "transforms": [
+                {
+                  "expression": "if({value} \u003d null || len({value}) \u003d 0, \"Sign In\", {value})",
+                  "type": "expression"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "cursor": "pointer",
+            "marginLeft": "4px"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "hasDelegate": true,
+          "name": "Spacer 2"
+        },
+        "position": {
+          "basis": "10px"
+        },
+        "props": {
+          "text": " "
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "page": "/alarms"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Alarm Icon"
+        },
+        "position": {
+          "basis": "26px",
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.style.classes": {
+            "binding": {
+              "config": {
+                "path": "../Alarms.custom.numAlarms"
+              },
+              "transforms": [
+                {
+                  "expression": "if({value} \u003e 0, \"Header/Alarm_Active\", \"Header/Icon\")",
+                  "type": "expression"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "path": "material/alarm"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "page": "/alarms"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "hasDelegate": true,
+          "name": "Alarms"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "custom.numAlarms": {
+            "binding": {
+              "config": {
+                "expression": "now(2000)"
+              },
+              "transforms": [
+                {
+                  "code": "\treturn len(system.alarm.queryStatus(state\u003d[\"ActiveUnacked\"]))",
+                  "type": "script"
+                }
+              ],
+              "type": "expr"
+            }
+          },
+          "position.display": {
+            "binding": {
+              "config": {
+                "expression": "{view.params.size} \u003d \"large\""
+              },
+              "type": "expr"
+            }
+          },
+          "props.style.classes": {
+            "binding": {
+              "config": {
+                "path": "../Alarms.custom.numAlarms"
+              },
+              "transforms": [
+                {
+                  "expression": "if({value} \u003e 0, \"Header/Alarm_Active\", \"Header/Icon\")",
+                  "type": "expression"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "this.custom.numAlarms"
+              },
+              "transforms": [
+                {
+                  "expression": "numberFormat({value}, \"#,##0\") + \" alarm\" + if({value} \u003e 1 || {value} \u003d 0, \"s\", \"\")",
+                  "type": "expression"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "cursor": "pointer",
+            "marginLeft": "6px"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "hasDelegate": true,
+          "name": "Spacer End"
+        },
+        "position": {
+          "basis": "16px",
+          "shrink": 0
+        },
+        "props": {
+          "text": " "
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "propConfig": {
+      "props.style.backgroundColor": {
+        "binding": {
+          "config": {
+            "path": "session.props.theme"
+          },
+          "transforms": [
+            {
+              "code": "\tif \"dark\" in value:\n\t\treturn \"var(--neutral-10)\"\n\telse:\n\t\treturn \"\"",
+              "type": "script"
+            }
+          ],
+          "type": "property"
+        }
+      }
+    },
+    "props": {
+      "alignContent": "flex-start",
+      "alignItems": "center",
+      "style": {
+        "classes": "Header/Header"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 48,
+      "width": 340
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "HorizontalMenu"
+        },
+        "position": {
+          "grow": 1
+        },
+        "propConfig": {
+          "props.items[0].style.fontWeight": {
+            "binding": {
+              "config": {
+                "path": "page.props.path"
+              },
+              "transforms": [
+                {
+                  "expression": "if ({value} \u003d {this.props.items[0].target}, \"bold\", \"normal\")",
+                  "type": "expression"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "props.items[1].style.fontWeight": {
+            "binding": {
+              "config": {
+                "path": "page.props.path"
+              },
+              "transforms": [
+                {
+                  "expression": "if ({value} \u003d {this.props.items[1].target}, \"bold\", \"normal\")",
+                  "type": "expression"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "props.items[2].style.fontWeight": {
+            "binding": {
+              "config": {
+                "path": "page.props.path"
+              },
+              "transforms": [
+                {
+                  "expression": "if ({value} \u003d {this.props.items[2].target}, \"bold\", \"normal\")",
+                  "type": "expression"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "itemStyle": {
+            "classes": "Menu/Item_Horizontal"
+          },
+          "items": [
+            {
+              "enabled": true,
+              "icon": {
+                "path": "material/home"
+              },
+              "items": [],
+              "label": "V230",
+              "style": {
+                "borderRightColor": "#FFFFFF",
+                "borderRightStyle": "solid",
+                "borderRightWidth": "1px",
+                "classes": ""
+              },
+              "target": "/V230"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": "material/settings_input_antenna"
+              },
+              "items": [],
+              "label": "V24",
+              "style": {
+                "borderRightColor": "#FFFFFF",
+                "borderRightStyle": "solid",
+                "borderRightWidth": "1px",
+                "classes": ""
+              },
+              "target": "/V24"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": "material/alarm"
+              },
+              "items": [],
+              "label": "Ns",
+              "style": {
+                "classes": ""
+              },
+              "target": "/Ns"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "items": [],
+              "label": "Bd",
+              "style": {
+                "classes": ""
+              },
+              "target": "/Bd"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "items": [],
+              "label": "Hd1",
+              "style": {
+                "classes": ""
+              },
+              "target": "/Hd1"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "items": [],
+              "label": "Hd2",
+              "style": {
+                "classes": ""
+              },
+              "target": "/Hd2"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "items": [],
+              "label": "Enc1",
+              "style": {
+                "classes": ""
+              },
+              "target": "/Enc1"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "items": [],
+              "label": "Enc2",
+              "style": {
+                "classes": ""
+              },
+              "target": "/Enc2"
+            },
+            {
+              "enabled": true,
+              "icon": {
+                "path": ""
+              },
+              "items": [],
+              "label": "Playground",
+              "style": {
+                "classes": ""
+              },
+              "target": "/Status"
+            }
+          ],
+          "style": {
+            "classes": "Menu/Menu_Horizontal"
+          }
+        },
+        "type": "ia.navigation.horizontalmenu"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.flex"
+  }
+}

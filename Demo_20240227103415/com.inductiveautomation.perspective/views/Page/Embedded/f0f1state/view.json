@@ -1,0 +1,192 @@
+{
+  "custom": {},
+  "params": {
+    "tagPath": "value",
+    "tagf0Path": "value",
+    "tagf1Path": "value"
+  },
+  "propConfig": {
+    "params.tagPath": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.tagf0Path": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.tagf1Path": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 55,
+      "width": 283
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "script": "\t\n# Get the control value of the button\n\tcontrolValue \u003d self.props.controlValue\n\n\t# Get the paths of the f0 and f1 tags\n\tf0_tag_path \u003d self.view.params.get(\u0027tagf0Path\u0027)\n\tf1_tag_path \u003d self.view.params.get(\u0027tagf1Path\u0027)\n\t\n\t# Check if the tag paths exist\n\tif f0_tag_path is None or f1_tag_path is None:\n\t    print(\"Error: tagf0Path or tagf1Path is not defined\")\n\telse:\n\t    # Set the value of the f0 and f1 tags based on the control value of the button\n\t    if controlValue \u003d\u003d self.props.states[0].value:  # Assuming \u0027f0\u0027 is the value of the first state\n\t        system.tag.writeBlocking([f0_tag_path], [True])\n\t        system.tag.writeBlocking([f1_tag_path], [False])\n\t    elif controlValue \u003d\u003d self.props.states[2].value:  # Assuming \u0027f1\u0027 is the value of the second state\n\t        system.tag.writeBlocking([f0_tag_path], [False])\n\t        system.tag.writeBlocking([f1_tag_path], [True])\n\t    else:  # controlValue \u003d\u003d \u0027off\u0027\n\t        system.tag.writeBlocking([f0_tag_path], [False])\n\t        system.tag.writeBlocking([f1_tag_path], [False])"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "MultiStateButton",
+          "visible": false
+        },
+        "position": {
+          "height": 39,
+          "width": 269,
+          "x": 7,
+          "y": 50
+        },
+        "propConfig": {
+          "props.indicatorValue": {
+            "binding": {
+              "config": {
+                "path": "this.props.controlValue"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "controlValue": 1,
+          "orientation": "row",
+          "states": [
+            {
+              "selectedStyle": {
+                "backgroundColor": "#FFF275",
+                "classes": ""
+              },
+              "text": "f0",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 0
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#F84553",
+                "classes": ""
+              },
+              "text": "Off",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 2
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#FFF275",
+                "classes": ""
+              },
+              "text": "f1",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 1
+            }
+          ]
+        },
+        "type": "ia.input.multi-state-button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "draggable": true,
+                "id": "uOzMQlUl",
+                "modal": false,
+                "overlayDismiss": true,
+                "position": {
+                  "relativeLocation": "bottom-right"
+                },
+                "positionType": "relative",
+                "resizable": true,
+                "showCloseIcon": true,
+                "type": "toggle",
+                "viewParams": {
+                  "tagPath": "{view.params.tagPath}",
+                  "tagf0Path": "{view.params.tagf0Path}",
+                  "tagf1Path": "{view.params.tagf1Path}"
+                },
+                "viewPath": "Page/Embedded/PopUpF",
+                "viewportBound": false
+              },
+              "scope": "C",
+              "type": "popup"
+            }
+          }
+        },
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 138,
+          "x": 85.5,
+          "y": 9
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "replace({view.params.tagPath}, \"[default]\", \"\")"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "classes": "Page/Text"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Icon"
+        },
+        "position": {
+          "height": 30,
+          "width": 30,
+          "x": 50,
+          "y": 11
+        },
+        "propConfig": {
+          "props.color": {
+            "binding": {
+              "config": {
+                "expression": "\nif(tag({view.params.tagPath}), \"green\", \n   if(tag({view.params.tagf1Path}), \"blue\", \n      if(tag({view.params.tagf0Path}), \"yellow\", \"red\")))"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "path": "material/lens",
+          "style": {
+            "borderStyle": "groove"
+          }
+        },
+        "type": "ia.display.icon"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

@@ -1,0 +1,702 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 1185
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "basis": "95px"
+        },
+        "props": {
+          "params": {
+            "text": "Bd"
+          },
+          "path": "Page/Embedded/Title"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "EmbeddedView"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.43,
+              "x": 48.583343505859375,
+              "y": 38.052085876464844
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdVdSignaalMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdVdSignaalMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdVdSignaalMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_0"
+            },
+            "position": {
+              "height": 64.18,
+              "width": 246.43000000000006,
+              "x": 295.02,
+              "y": 104.19
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandVdMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandVdMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandVdMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_1"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.43,
+              "x": 48.583343505859375,
+              "y": 234.49008587646483
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdLmpStorUitg\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdLmpStorUitg_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdLmpStorUitg_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_2"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.43,
+              "x": 48.583343505859375,
+              "y": 166.41708587646485
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdFlitserUitg\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdFlitserUitg_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdFlitserUitg_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_3"
+            },
+            "position": {
+              "height": 64.18,
+              "width": 246.43,
+              "x": 48.583343505859375,
+              "y": 102.24008587646485
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdSigGvrUitg\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdSigGvrUitg_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdSigGvrUitg_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_4"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.43000000000006,
+              "x": 295.02,
+              "y": 40
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdKnpResetMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdKnpResetMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdKnpResetMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_5"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.42999999999995,
+              "x": 547.57,
+              "y": 40
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKn3rsrvMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKn3rsrvMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKn3rsrvMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_6"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.43000000000006,
+              "x": 295.02,
+              "y": 364.81
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnZetMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnZetMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnZetMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_7"
+            },
+            "position": {
+              "height": 64.18,
+              "width": 246.43000000000006,
+              "x": 295.02,
+              "y": 300.63
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnStrijkMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnStrijkMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnStrijkMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_8"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.43000000000006,
+              "x": 295.02,
+              "y": 236.44
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandDisabledMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandVdMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandVdMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_9"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.43000000000006,
+              "x": 295.02,
+              "y": 168.37
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandDisabledMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandDisabledMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandDisabledMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_10"
+            },
+            "position": {
+              "height": 64.18,
+              "width": 246.42999999999995,
+              "x": 547.57,
+              "y": 104.19
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKn4rsrvMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKn4rsrvMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKn4rsrvMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_12"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.42999999999995,
+              "x": 541.45,
+              "y": 364.81
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandMeldTxt2Uitg\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandMeldTxt2Uitg_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandMeldTxt2Uitg_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_13"
+            },
+            "position": {
+              "height": 64.18,
+              "width": 246.42999999999995,
+              "x": 547.57,
+              "y": 300.63
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandMeldTxt1Uitg\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandMeldTxt1Uitg_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandMeldTxt1Uitg_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_14"
+            },
+            "position": {
+              "height": 64.19,
+              "width": 246.42999999999995,
+              "x": 547.57,
+              "y": 236.44
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnNul2Mld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnNul2Mld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnNul2Mld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_15"
+            },
+            "position": {
+              "height": 64.17999999999998,
+              "width": 246.42999999999995,
+              "x": 547.57,
+              "y": 168.05
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnNul1Mld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnNul1Mld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]BdAfstandKnNul1Mld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "CoordinateContainer"
+        },
+        "position": {
+          "basis": "705px"
+        },
+        "type": "ia.container.coord"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

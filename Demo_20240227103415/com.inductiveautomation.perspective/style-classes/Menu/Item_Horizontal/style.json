@@ -1,0 +1,19 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "unset",
+      "color": "#FFFFFF",
+      "fontSize": "14px",
+      "lineHeight": "16px",
+      "textTransform": "uppercase"
+    }
+  },
+  "variants": [
+    {
+      "pseudo": "hover",
+      "style": {
+        "backgroundColor": "#0D72B633"
+      }
+    }
+  ]
+}

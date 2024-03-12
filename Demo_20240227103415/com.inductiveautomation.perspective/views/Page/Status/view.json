@@ -1,0 +1,298 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Title"
+        },
+        "position": {
+          "basis": "54px"
+        },
+        "props": {
+          "params": {
+            "icon": "settings_input_antenna",
+            "text": "System Status Overview"
+          },
+          "path": "Page/Embedded/Title"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "height": 32,
+                  "width": 174
+                },
+                "props": {
+                  "style": {
+                    "color": "#ffa500"
+                  },
+                  "text": "System Metrics"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "height": 32,
+                  "width": 123,
+                  "x": 16.5,
+                  "y": 59.5
+                },
+                "propConfig": {
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "fallbackDelay": 2.5,
+                        "mode": "direct",
+                        "publishInitial": false,
+                        "tagPath": "[default]Enc2PosDiff"
+                      },
+                      "type": "tag"
+                    }
+                  }
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "events": {
+                  "dom": {
+                    "onClick": {
+                      "config": {
+                        "draggable": true,
+                        "id": "WWKPJQY2",
+                        "modal": false,
+                        "overlayDismiss": false,
+                        "position": {
+                          "relativeLocation": "bottom-right"
+                        },
+                        "positionType": "relative",
+                        "resizable": true,
+                        "showCloseIcon": true,
+                        "type": "open",
+                        "viewPath": "Page/Embedded/f0f1state",
+                        "viewportBound": false
+                      },
+                      "scope": "C",
+                      "type": "popup"
+                    }
+                  }
+                },
+                "meta": {
+                  "name": "Label_1"
+                },
+                "position": {
+                  "height": 32,
+                  "width": 50,
+                  "x": 113,
+                  "y": 222.546875
+                },
+                "props": {
+                  "text": "Label"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "CoordinateContainer"
+            },
+            "position": {
+              "height": 647,
+              "width": 400,
+              "y": 99
+            },
+            "props": {
+              "style": {
+                "borderStyle": "inset"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "height": 32,
+                  "width": 153,
+                  "x": -0.5
+                },
+                "props": {
+                  "text": "Operational States"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "CoordinateContainer_0"
+            },
+            "position": {
+              "height": 647,
+              "width": 400,
+              "x": 400,
+              "y": 99
+            },
+            "props": {
+              "style": {
+                "borderStyle": "inset",
+                "color": "#ffa500"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "meta": {
+              "name": "Checkbox"
+            },
+            "position": {
+              "height": 36,
+              "width": 56,
+              "x": 490,
+              "y": 398.046875
+            },
+            "type": "ia.input.checkbox"
+          },
+          {
+            "meta": {
+              "name": "MultiStateButton"
+            },
+            "position": {
+              "height": 120,
+              "width": 80,
+              "x": 562,
+              "y": 259.046875
+            },
+            "props": {
+              "controlValue": 1,
+              "indicatorValue": 0,
+              "primary": true,
+              "states": [
+                {
+                  "selectedStyle": {
+                    "backgroundColor": "#FFF275",
+                    "classes": ""
+                  },
+                  "text": "Hand",
+                  "unselectedStyle": {
+                    "classes": ""
+                  },
+                  "value": 2
+                },
+                {
+                  "selectedStyle": {
+                    "backgroundColor": "#F84553",
+                    "classes": ""
+                  },
+                  "text": "Off",
+                  "unselectedStyle": {
+                    "classes": ""
+                  },
+                  "value": 0
+                },
+                {
+                  "selectedStyle": {
+                    "backgroundColor": "#7CEA9C",
+                    "classes": ""
+                  },
+                  "text": "Auto",
+                  "unselectedStyle": {
+                    "classes": ""
+                  },
+                  "value": 1
+                }
+              ]
+            },
+            "type": "ia.input.multi-state-button"
+          },
+          {
+            "meta": {
+              "name": "RadioGroup"
+            },
+            "position": {
+              "height": 35,
+              "width": 155,
+              "x": 600,
+              "y": 560.046875
+            },
+            "type": "ia.input.radio-group"
+          }
+        ],
+        "meta": {
+          "name": "CoordinateContainer"
+        },
+        "position": {
+          "basis": "746px"
+        },
+        "type": "ia.container.coord"
+      },
+      {
+        "meta": {
+          "name": "MultiStateButton"
+        },
+        "position": {
+          "basis": "120px"
+        },
+        "props": {
+          "controlValue": 2,
+          "indicatorValue": 0,
+          "states": [
+            {
+              "selectedStyle": {
+                "backgroundColor": "#FFF275",
+                "classes": ""
+              },
+              "text": "Hand",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 2
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#F84553",
+                "classes": ""
+              },
+              "text": "Off",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 0
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#7CEA9C",
+                "classes": ""
+              },
+              "text": "Auto",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 1
+            }
+          ]
+        },
+        "type": "ia.input.multi-state-button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

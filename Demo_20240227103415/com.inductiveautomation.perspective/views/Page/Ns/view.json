@@ -1,0 +1,124 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "basis": "102px"
+        },
+        "props": {
+          "params": {
+            "text": "Ns"
+          },
+          "path": "Page/Embedded/Title"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "EmbeddedView"
+            },
+            "position": {
+              "height": 98,
+              "width": 279,
+              "x": 53,
+              "y": 51
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]NsNsMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]NsNsMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]NsNsMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_0"
+            },
+            "position": {
+              "height": 98,
+              "width": 279,
+              "x": 367,
+              "y": 51
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]NsVdMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]NsVdMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]NsVdMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "CoordinateContainer"
+        },
+        "position": {
+          "basis": "698px"
+        },
+        "type": "ia.container.coord"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

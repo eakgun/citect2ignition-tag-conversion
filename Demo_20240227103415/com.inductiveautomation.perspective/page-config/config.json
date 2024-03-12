@@ -1,0 +1,94 @@
+{
+  "pages": {
+    "/Bd": {
+      "title": "",
+      "viewPath": "Page/Bd"
+    },
+    "/Enc1": {
+      "title": "",
+      "viewPath": "Page/Enc1"
+    },
+    "/Enc2": {
+      "title": "",
+      "viewPath": "Page/Enc2"
+    },
+    "/Hd1": {
+      "title": "",
+      "viewPath": "Page/Hd1"
+    },
+    "/Hd2": {
+      "title": "",
+      "viewPath": "Page/Hd2"
+    },
+    "/Ns": {
+      "title": "",
+      "viewPath": "Page/Ns"
+    },
+    "/Status": {
+      "title": "",
+      "viewPath": "Page/Status"
+    },
+    "/V230": {
+      "title": "",
+      "viewPath": "Page/V230"
+    },
+    "/V24": {
+      "title": "",
+      "viewPath": "Page/V24"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom",
+    "left": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 768,
+        "content": "cover",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "menu",
+        "modal": false,
+        "resizable": false,
+        "show": "onDemand",
+        "size": 210,
+        "viewParams": {},
+        "viewPath": "Docks/Menu Vertical"
+      }
+    ],
+    "top": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 58,
+        "viewParams": {
+          "breakpointLarge": "820",
+          "breakpointMedium": "710",
+          "params": {},
+          "path": "Header/Header"
+        },
+        "viewPath": "Framework/Breakpoint"
+      },
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 150,
+        "viewParams": {},
+        "viewPath": "Header/Header"
+      }
+    ]
+  }
+}

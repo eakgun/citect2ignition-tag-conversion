@@ -1,0 +1,399 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "basis": "92px"
+        },
+        "props": {
+          "params": {
+            "icon": "",
+            "text": "V230"
+          },
+          "path": "Page/Embedded/Title"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "EmbeddedView_0"
+            },
+            "position": {
+              "height": 101,
+              "width": 284,
+              "x": 412,
+              "y": 376
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230KastMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230KastMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230KastMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state",
+              "useDefaultViewHeight": true,
+              "useDefaultViewWidth": true
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_1"
+            },
+            "position": {
+              "height": 101,
+              "width": 284,
+              "x": 42,
+              "y": 376
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230Hmi2Mld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230Hmi2Mld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230Hmi2Mld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state",
+              "useDefaultViewHeight": true,
+              "useDefaultViewWidth": true
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_2"
+            },
+            "position": {
+              "height": 101,
+              "width": 284,
+              "x": 412,
+              "y": 266
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230V230StuurMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230V230StuurMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230V230StuurMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state",
+              "useDefaultViewHeight": true,
+              "useDefaultViewWidth": true
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_3"
+            },
+            "position": {
+              "height": 101,
+              "width": 284,
+              "x": 42,
+              "y": 266
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230Hmi1Mld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230Hmi1Mld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230Hmi1Mld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state",
+              "useDefaultViewHeight": true,
+              "useDefaultViewWidth": true
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_4"
+            },
+            "position": {
+              "height": 101,
+              "width": 284,
+              "x": 405,
+              "y": 159
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230V24StuurMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230V24StuurMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230V24StuurMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state",
+              "useDefaultViewHeight": true,
+              "useDefaultViewWidth": true
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_5"
+            },
+            "position": {
+              "height": 101,
+              "width": 284,
+              "x": 42,
+              "y": 159
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230MonitorMld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230MonitorMld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230MonitorMld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "params": {
+                "tagVal": "value"
+              },
+              "path": "Page/Embedded/f0f1state",
+              "useDefaultViewHeight": true,
+              "useDefaultViewWidth": true
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_6"
+            },
+            "position": {
+              "height": 101,
+              "width": 284,
+              "x": 42,
+              "y": 58
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230InOsb\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagVal": {
+                "binding": {
+                  "config": {
+                    "expression": "{[default]V230InOsb}"
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230InOsb_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230InOsb_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "path": "Page/Embedded/f0f1state",
+              "useDefaultViewHeight": true,
+              "useDefaultViewWidth": true
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "EmbeddedView_7"
+            },
+            "position": {
+              "height": 101,
+              "width": 284,
+              "x": 405,
+              "y": 58
+            },
+            "propConfig": {
+              "props.params.tagPath": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230PlcV24Mld\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf0Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230PlcV24Mld_f0\""
+                  },
+                  "type": "expr"
+                }
+              },
+              "props.params.tagf1Path": {
+                "binding": {
+                  "config": {
+                    "expression": "\"[default]V230PlcV24Mld_f1\""
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "params": {
+                "tagVal": "value"
+              },
+              "path": "Page/Embedded/f0f1state"
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "CoordinateContainer"
+        },
+        "position": {
+          "basis": "708px"
+        },
+        "type": "ia.container.coord"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}
